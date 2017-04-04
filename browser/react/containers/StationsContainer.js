@@ -5,7 +5,8 @@ import Stations from '../components/Stations';
 
 
 function mapStateToProps(state, ownProps){
-	console.log("state ", state)
+	// console.log("StationsContainer state ", state)
+	// console.log("StationsContainer ownProps ", ownProps)
 	let convertedStations = convertToStations(state.songs)
 	return {
 		stations: convertedStations
